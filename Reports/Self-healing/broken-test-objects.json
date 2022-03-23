@@ -1,0 +1,74 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Test1/Page_Query Results/td_Completed",
+      "brokenLocator": "(//td[@id\u003d\u0027completed\u0027])[13]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027aazone.queryResults\u0027]/form/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr[2]/td[13]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Test1/Page_Query Results/td_Completed_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Test1/Page_Query Results/td_TOM_ProvisionTechnicalOrderFulfillment",
+      "brokenLocator": "(//td[@id\u003d\u0027completed\u0027])[39]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027aazone.queryResults\u0027]/form/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr[3]/td[14]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Test1/Page_Query Results/td_TOM_ProvisionTechnicalOrderFulfillment_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Test1/Page_Query Results/td_SOM_ProvisionServiceOrderFulfillment",
+      "brokenLocator": "(//td[@id\u003d\u0027completed\u0027])[64]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027aazone.queryResults\u0027]/form/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr[4]/td[14]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Test1/Page_Query Results/td_SOM_ProvisionServiceOrderFulfillment_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Test1/Page_Query Results/td_COM_SalesOrderFulfillment",
+      "brokenLocator": "(//td[@id\u003d\u0027completed\u0027])[14]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027aazone.queryResults\u0027]/form/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr[2]/td[14]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Test1/Page_Query Results/td_COM_SalesOrderFulfillment_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Worklist/input_Reference_referenceFilter",
+      "brokenLocator": "//input[@name\u003d\u0027referenceFilter\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//td/input[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Worklist/input_Reference_referenceFilter_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Query Results/td_Completed_TOM",
+      "brokenLocator": "//tr[@class\u003d\u0027context-menu-target\u0027][2]/td[13]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027aazone.queryResults\u0027]/form/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr[2]/td[13]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Query Results/td_Completed_TOM_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Query Results/td_Completed_COM",
+      "brokenLocator": "//tr[@class\u003d\u0027context-menu-target\u0027][1]/td[13][contains(text(), \u0027Completed\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//td[@id\u003d\u0027completed\u0027])[13]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Query Results/td_Completed_COM_attributes.png"
+    }
+  ]
+}
